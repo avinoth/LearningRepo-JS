@@ -32,4 +32,4 @@ console.log(false == 0) // wrong output
 console.log(false === 0) //it corrects the above line
 console.log(21 * null) //converts null to 0
 
-//there completes the kindergarden stuf
+//there completes the kindergarden stuff
