@@ -52,12 +52,11 @@ var addWith = add(2);
 console.log(addWith(3));
 
 //Recursion
-var result = 1;
 function factorial(n) {
     if (n === 0) 
         return 1;
     else if (n === 1) 
-        return result;
+        return 1;
     else
         return n * factorial(n-1);
 }
