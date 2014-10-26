@@ -25,6 +25,7 @@ the subsequent catch block is executed.
 finally block is executed no matter what happens in the try and catch block
 */
 
+var context = null;
 
 function withContext(newContext, body) {
   var oldContext = context;
